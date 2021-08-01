@@ -1,0 +1,54 @@
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	
+
+	header { background-color: darkred; font-weight: 800; }
+	nav ul { display: flex; flex-direction: row; align-items: center; justify-content: space-around; }
+	nav ul li { list-style-type: none; justify-content: space-between; padding: 27px 0;}
+	nav ul li a { text-decoration: none; color: white; }
+	
+	nav { display: inline-block; width: 45%;}
+
+	.login-part { position: absolute; top: 0; right: 0; width: 55%; display: flex; padding: 20px 10px; box-sizing: border-box;}
+	.sign-up { padding: 7px; text-decoration: none; background: black; color: white; }
+	.login-part form { position: absolute; right: 0;}
+	.login-part form input { width: 30%; height: 33px; border: none; padding-left: 10px;}
+	.btn { width: 14%; height: 33px; border: none; background: black; color: white; font-weight: 700;}
+	
+	/* Sign-up.php */
+	main {
+		position: absolute; 
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -50%);
+		width: 40vw;
+	}
+	
+	.err{text-align: center; font-size: 1.4em;}
+
+	.wrapper-main h1 { color: #594f4f;
+						position: absolute;
+						top: -42px;
+						left: 50%;
+						margin-top: 8px;
+						transform: translate(-50%);
+					}
+	.wrapper-main form input { padding: 10px; height: 50px; width: 100%; background: #e7e6e6; box-sizing: border-box; border: 1px solid #aaa7a7; }
+	.sing-up { width: 100%; height: 50px; border: 2px solid #aaa7a7; border-top: 1px solid #aaa7a7; background: #e7e6e6; color: #594f4f; font-size: 1.4em;}
+		
+	.login-status {
+		color: black;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
